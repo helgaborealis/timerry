@@ -58,6 +58,9 @@ dependencies {
     implementation(Dependencies.Google.lifecycleKts)
     implementation(Dependencies.Google.activityCompose)
 
+    // should be removed later (check)
+    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable-jvm:0.3.4")
+
     testImplementation(Dependencies.Test.junit)
     androidTestImplementation(Dependencies.Test.textExt)
     androidTestImplementation(Dependencies.Test.espresso)

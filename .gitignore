@@ -14,5 +14,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+buildSrc/build/
 app/build
-buildSrc/build
