@@ -13,7 +13,6 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - name: Checkout repo
       - uses: actions/checkout@v2
 
       - name: set up JDK 1.11
@@ -21,9 +20,7 @@ jobs:
         with:
           java-version: 1.11
 
-        # Execute unit tests
-      - name: Run tests
-        shell: bash
+      - name: Unit Test
         run: ./gradlew test
 
       - name: Upload Test Reports Folder
