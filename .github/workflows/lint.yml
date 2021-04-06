@@ -3,7 +3,8 @@ name: Android Static Analysis
 on:
   pull_request:
     branches:
-      - develop
+      - dev
+      - main
 
 jobs:
   lint:
